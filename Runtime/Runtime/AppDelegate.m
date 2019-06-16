@@ -1,13 +1,12 @@
 //
 //  AppDelegate.m
-//  RuntimDemo
+//  Runtime
 //
-//  Created by taotao on 2019/6/15.
+//  Created by taotao on 2019/6/16.
 //  Copyright © 2019 admin. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "RuntimeDemoViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    RuntimeDemoViewController *runtimeController = [RuntimeDemoViewController new];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:runtimeController];
-    self.window.rootViewController = nav;
+    // Override point for customization after application launch.
     return YES;
 }
 

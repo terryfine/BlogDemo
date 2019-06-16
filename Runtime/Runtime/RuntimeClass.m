@@ -1,14 +1,14 @@
 //
-//  RuntimClass.m
-//  RuntimDemo
+//  RuntimeClass.m
+//  RuntimeDemo
 //
 //  Created by taotao on 2019/6/15.
 //  Copyright © 2019 admin. All rights reserved.
 //
 
-#import "RuntimClass.h"
+#import "RuntimeClass.h"
 
-@interface RuntimClass()<RuntimeClassProtocol, NSCopying, NSCoding> {
+@interface RuntimeClass()<RuntimeClassProtocol, NSCopying, NSCoding> {
     NSArray *firstInstance;
     NSString *secondInstance;
     NSInteger thirdInstance;
@@ -18,7 +18,7 @@
 
 @end
 
-@implementation RuntimClass
+@implementation RuntimeClass
 
 - (void)method1 { NSLog(@"method1 被调用"); }
 - (void)method2 { NSLog(@"method2 被调用"); }

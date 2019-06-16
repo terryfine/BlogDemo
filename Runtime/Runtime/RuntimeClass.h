@@ -1,6 +1,6 @@
 //
-//  RuntimClass.h
-//  RuntimDemo
+//  RuntimeClass.h
+//  RuntimeDemo
 //
 //  Created by taotao on 2019/6/15.
 //  Copyright © 2019 admin. All rights reserved.
@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@interface RuntimClass : NSObject
+@interface RuntimeClass : NSObject
 
 @property (nonatomic, strong) NSArray *array;
 @property (nonatomic, copy)  NSString *string;

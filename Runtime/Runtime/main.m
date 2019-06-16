@@ -1,21 +1,22 @@
 //
 //  main.m
-//  RuntimDemo
+//  Runtime
 //
-//  Created by taotao on 2019/6/15.
+//  Created by taotao on 2019/6/16.
 //  Copyright © 2019 admin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-#import "RuntimClass.h"
+#import "RuntimeClass.h"
 #import <objc/runtime.h>
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         
-        RuntimClass *runtimeClass = [[RuntimClass alloc] init];
+        RuntimeClass *runtimeClass = [[RuntimeClass alloc] init];
         Class cls = runtimeClass.class;
+        
         // 类名
         const char *clsName = class_getName(cls);
         NSLog(@"类名：%s", clsName);

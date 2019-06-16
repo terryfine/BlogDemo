@@ -1,16 +1,18 @@
 //
-//  RuntimeDemoViewController.h
-//  RuntimDemo
+//  RuntimeClass+Category.h
+//  RuntimeDemo
 //
 //  Created by taotao on 2019/6/15.
 //  Copyright © 2019 admin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RuntimeClass.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RuntimeDemoViewController : UIViewController
+@interface RuntimeClass (Category)
+
+- (void)categoryMethod;
 
 @end
 

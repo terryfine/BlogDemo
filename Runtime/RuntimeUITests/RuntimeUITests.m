@@ -1,18 +1,18 @@
 //
-//  RuntimDemoUITests.m
-//  RuntimDemoUITests
+//  RuntimeUITests.m
+//  RuntimeUITests
 //
-//  Created by taotao on 2019/6/15.
+//  Created by taotao on 2019/6/16.
 //  Copyright © 2019 admin. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface RuntimDemoUITests : XCTestCase
+@interface RuntimeUITests : XCTestCase
 
 @end
 
-@implementation RuntimDemoUITests
+@implementation RuntimeUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
